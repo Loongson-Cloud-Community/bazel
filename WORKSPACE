@@ -160,7 +160,7 @@ distdir_tar(
         # bazelbuild/bazel-skylib
         "2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz",
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip",
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip",
         # bazelbuild/rules_cc
@@ -197,7 +197,7 @@ distdir_tar(
         # bazelbuild/bazel-skylib
         "2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz": "c00ceec469dbcf7929972e3c79f20c14033824538038a554952f5c31d8832f96",
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": "66184688debeeefcc2a16a2f80b03f514deac8346fe888fb7e691a52c023dd88",
+        "54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip": "3e16416780ef1b5b50609160dfd613d8ecba28cd4185d3d72fd2487b3dfb3fe8",
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": "bc81f1ba47ef5cc68ad32225c3d0e70b8c6f6077663835438da8d5733f917598",
         # bazelbuild/rules_cc
@@ -255,9 +255,8 @@ distdir_tar(
             "https://github.com/bazelbuild/bazel-skylib/archive/2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz",
         ],
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": [
-            "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-            "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip": [
+            "https://github.com/Loongson-Cloud-Community/platforms/releases/download/commit-54b6bb9/54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip",
         ],
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": [
@@ -539,7 +538,7 @@ distdir_tar(
         # bazelbuild/bazel-skylib
         "2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz",
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip",
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip",
         # bazelbuild/rules_cc
@@ -569,7 +568,7 @@ distdir_tar(
         # bazelbuild/bazel-skylib
         "2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz": "c00ceec469dbcf7929972e3c79f20c14033824538038a554952f5c31d8832f96",
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": "66184688debeeefcc2a16a2f80b03f514deac8346fe888fb7e691a52c023dd88",
+        "54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip": "3e16416780ef1b5b50609160dfd613d8ecba28cd4185d3d72fd2487b3dfb3fe8",
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": "bc81f1ba47ef5cc68ad32225c3d0e70b8c6f6077663835438da8d5733f917598",
         # bazelbuild/rules_cc
@@ -603,9 +602,8 @@ distdir_tar(
             "https://github.com/bazelbuild/bazel-skylib/archive/2d4c9528e0f453b5950eeaeac11d8d09f5a504d4.tar.gz",
         ],
         # bazelbuild/platforms
-        "46993efdd33b73649796c5fc5c9efb193ae19d51.zip": [
-            "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-            "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip": [
+            "https://github.com/Loongson-Cloud-Community/platforms/releases/download/commit-54b6bb9/54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip",
         ],
         # bazelbuild/rules_java
         "7cf3cefd652008d0a64a419c34c13bdca6c8f178.zip": [
@@ -703,11 +701,10 @@ http_archive(
 
 http_archive(
     name = "platforms",
-    sha256 = "66184688debeeefcc2a16a2f80b03f514deac8346fe888fb7e691a52c023dd88",
-    strip_prefix = "platforms-46993efdd33b73649796c5fc5c9efb193ae19d51",
+    sha256 = "3e16416780ef1b5b50609160dfd613d8ecba28cd4185d3d72fd2487b3dfb3fe8",
+    strip_prefix = "platforms-54b6bb949780d8ccd3cf88b0d4d367f864c9978e",
     urls = [
-        "https://mirror.bazel.build/github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
-        "https://github.com/bazelbuild/platforms/archive/46993efdd33b73649796c5fc5c9efb193ae19d51.zip",
+        "https://github.com/Loongson-Cloud-Community/platforms/releases/download/commit-54b6bb9/54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip",
     ],
 )
 

@@ -559,6 +559,7 @@ UNNECESSARY_DYNAMIC_LIBRARIES = select({
     "//src/conditions:linux_aarch64": "*.so *.jnilib *.dll",
     "//src/conditions:linux_ppc": "*.so *.jnilib *.dll",
     "//src/conditions:linux_s390x": "*.so *.jnilib *.dll",
+    "//src/conditions:linux_loongarch64": "*.so *.jnilib *.dll",
     "//src/conditions:freebsd": "*.so *.jnilib *.dll",
     "//src/conditions:openbsd": "*.so *.jnilib *.dll",
     # Default is to play it safe -- better have a big binary than a slow binary
@@ -754,6 +755,11 @@ config_setting(
 config_setting(
     name = "ppc",
     values = {"host_cpu": "ppc"},
+)
+
+config_setting(
+    name = "loongarch64",
+    values = {"host_cpu": "loongarch64"},
 )
 
 test_suite(
