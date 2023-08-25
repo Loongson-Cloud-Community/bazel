@@ -702,7 +702,7 @@ http_archive(
 http_archive(
     name = "platforms",
     sha256 = "3e16416780ef1b5b50609160dfd613d8ecba28cd4185d3d72fd2487b3dfb3fe8",
-    strip_prefix = "platforms-54b6bb949780d8ccd3cf88b0d4d367f864c9978e",
+    strip_prefix = "platforms-46993efdd33b73649796c5fc5c9efb193ae19d51",
     urls = [
         "https://github.com/Loongson-Cloud-Community/platforms/releases/download/commit-54b6bb9/54b6bb949780d8ccd3cf88b0d4d367f864c9978e.zip",
     ],
