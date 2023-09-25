@@ -74,6 +74,8 @@ public class AutoCpuConverter implements Converter<String> {
               return "mips64";
             case RISCV64:
               return "riscv64";
+            case LOONGARCH64:
+              return "loongarch64";
             default:
               return "unknown";
           }
@@ -118,6 +120,8 @@ public class AutoCpuConverter implements Converter<String> {
         return Pair.of(CPU.MIPS64, OS.LINUX);
       case "riscv64":
         return Pair.of(CPU.RISCV64, OS.LINUX);
+      case "loongarch64":
+        return Pair.of(CPU.LOONGARCH64, OS.LINUX);
       default:
         // fall through
     }
